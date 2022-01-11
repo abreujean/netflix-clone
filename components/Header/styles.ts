@@ -1,6 +1,5 @@
 import styled from 'styled-components'
 import Image from 'next/image'
-import { theme } from '../../styles/theme'
 
 export const Container = styled.div`
 display: flex;
@@ -27,7 +26,7 @@ export const Select = styled.select`
     background: #00000090;
     color: ${props => props.theme.colors.white};   
     border: 1px solid #FFF;
-    padding: 9px 17px;
+    padding: 8px 9px;
     font-size: 1rem;
     border-radius: 1px;
     margin-right: 2rem;
@@ -41,7 +40,7 @@ export const Button = styled.button`
   font-family: ${props => props.theme.font.netflix};
   font-weight: 400;
   border-radius: 4px;
-  padding: 5px 17px;
+  padding: 4px 17px;
   font-size: 1rem;
 
 `

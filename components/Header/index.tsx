@@ -5,7 +5,7 @@ export default function Header() {
   return (
     <S.Container>
 
-      <S.StyledImage src={img} alt="Logo da netflix" width={200} height={200} />
+      <S.StyledImage src={img} alt="Logo da netflix" width={170} height={150} />
 
       <S.ContainerButtonSelect>
         <S.Select name="" id="">
