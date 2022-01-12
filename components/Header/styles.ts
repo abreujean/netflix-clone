@@ -2,15 +2,15 @@ import styled from 'styled-components'
 import Image from 'next/image'
 
 export const Container = styled.div`
-display: flex;
 position: absolute;
+z-index: 1;
+display: flex;
 max-width: 1960px;
 width: 100%;
 justify-content: space-between;
 align-items: center;
 padding: 3.5rem 4rem;
 height: 56px;
-z-index: 1;
 `
 
 export const StyledImage = styled(Image)`
